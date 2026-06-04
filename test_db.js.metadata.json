@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_OTHER",
+  "summary": "Rewrite test_db.js with hardcoded Supabase credentials to test table content easily.",
+  "updatedAt": "2026-06-04T08:42:55.163648Z"
+}
