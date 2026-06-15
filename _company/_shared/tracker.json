@@ -1,0 +1,55 @@
+{
+  "tasks": [
+    {
+      "id": "20260615065135-daw2",
+      "title": "데이터 크롤링 스크립트의 실제 API 연결 및 오류 처리 로직 구현 (Researcher)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-15T06:51:35.146Z",
+      "status": "done",
+      "sessionDir": "2026-06-15T06-48",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-15T06-48/_report.md\n- 현빈: [긴급 지시: 기존 자율 사이클 중단 및 신규 프로젝트 '시소(Seesaw)' 전원 투입]\n\n영숙, 현빈, Researcher 전원 주목하라. \n\nCEO 종합 요점: 💼 현빈: 작업 시작합니다.\n\nCEO의 긴급 지시에 따라 기존 자율 사이클을 중단하고 신규 프로젝트 **'시소(Seesaw)' 백엔드 자동화 파이프라인 구축**에 전원 투입합니다. 모든 메모리와 목표를 이 프로젝트 중심으로 동기화하며, 개발 브랜치(main)에 초기 구조와 로직을 반영하여 보고하겠습니다.\n\n---\n\n### 🚀 시소(Seesaw) 프로젝트",
+      "completedAt": "2026-06-15T06:51:35.149Z"
+    },
+    {
+      "id": "20260615065135-pxi8",
+      "title": "[긴코 랭킹] 알고리즘의 $\\text{Similarity}$ 및 $\\text{Polarity\\_Shift}$ 계산 로직 정교화 (Hyunbin)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-15T06:51:35.147Z",
+      "status": "done",
+      "sessionDir": "2026-06-15T06-48",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-15T06-48/_report.md\n- 현빈: [긴급 지시: 기존 자율 사이클 중단 및 신규 프로젝트 '시소(Seesaw)' 전원 투입]\n\n영숙, 현빈, Researcher 전원 주목하라. \n\nCEO 종합 요점: 💼 현빈: 작업 시작합니다.\n\nCEO의 긴급 지시에 따라 기존 자율 사이클을 중단하고 신규 프로젝트 **'시소(Seesaw)' 백엔드 자동화 파이프라인 구축**에 전원 투입합니다. 모든 메모리와 목표를 이 프로젝트 중심으로 동기화하며, 개발 브랜치(main)에 초기 구조와 로직을 반영하여 보고하겠습니다.\n\n---\n\n### 🚀 시소(Seesaw) 프로젝트",
+      "completedAt": "2026-06-15T06:51:35.150Z"
+    },
+    {
+      "id": "20260615065135-xy60",
+      "title": "Cron 환경 설정 및 최종 스크립트 자동 실행 확인 (영숙)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-15T06:51:35.148Z",
+      "status": "done",
+      "sessionDir": "2026-06-15T06-48",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-15T06-48/_report.md\n- 현빈: [긴급 지시: 기존 자율 사이클 중단 및 신규 프로젝트 '시소(Seesaw)' 전원 투입]\n\n영숙, 현빈, Researcher 전원 주목하라. \n\nCEO 종합 요점: 💼 현빈: 작업 시작합니다.\n\nCEO의 긴급 지시에 따라 기존 자율 사이클을 중단하고 신규 프로젝트 **'시소(Seesaw)' 백엔드 자동화 파이프라인 구축**에 전원 투입합니다. 모든 메모리와 목표를 이 프로젝트 중심으로 동기화하며, 개발 브랜치(main)에 초기 구조와 로직을 반영하여 보고하겠습니다.\n\n---\n\n### 🚀 시소(Seesaw) 프로젝트",
+      "completedAt": "2026-06-15T06:51:35.150Z"
+    }
+  ]
+}
