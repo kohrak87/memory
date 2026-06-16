@@ -1,0 +1,43 @@
+<create_file path="sessions/2026-06-16T18-46/designer_prototype_sync_v1.fig">
+// Figma Prototype: Customer Feedback Form - Sync Verification View
+// Version: 1.0 (Sync Verification Integrated)
+
+// --- Layout Structure based on Dashboard Kit ---
+// Parent Frame: FeedbackForm_SyncVerification
+
+// Section 1: System Integrity Status (Technical Alignment)
+// Goal: Display $\lambda_{tech}$ status clearly.
+Component: SystemStatusBlock
+- Title: 시스템 무결성 검증 (System Integrity Check)
+- Indicator: Progress Bar / Status Indicator
+  - Label: `lint_test` 결과 일치 여부 ($\lambda_{tech}$)
+  - Value: [데이터 기반 값 삽입 필요]
+  - Color Logic: Green (일치), Yellow (경고/Gap), Red (불일치)
+
+// Section 2: Data Flow Reliability (Data Alignment)
+// Goal: Display $\lambda_{data}$ status and data flow confidence.
+Component: DataReliabilityBlock
+- Title: 데이터 흐름 신뢰도 검증 (Data Flow Reliability Check)
+- Indicator: Gauge / Score Display
+  - Label: 데이터 신뢰도 ($\lambda_{data}$)
+  - Value: [계산된 $\lambda_{data}$ 값 삽입 필요]
+  - Metric: 데이터 흐름의 정확성 및 보정 공식 적용 결과
+
+// Section 3: Customer Feedback Input Form (Core Function)
+Component: FeedbackInputForm
+- Title: 고객 피드백 수집 (Customer Feedback Collection)
+- Fields:
+  1. 질문 (Question Text Input)
+  2. 응답 (Response Area - Rich Text/Textarea)
+  3. **Sync Feedback Element**: 시스템 상태에 따라 동적으로 표시되는 안내 메시지 삽입.
+    - IF $\lambda_{tech}$ = Green AND $\lambda_{data}$ = High: "모든 시스템이 완벽하게 동기화되었습니다. 피드백을 제출해 주세요." (Green Success)
+    - IF $\lambda_{tech}$ = Yellow OR $\lambda_{data}$ = Low: "주의: 일부 데이터 흐름에 잠재적 불일치가 감지되었습니다. 제출 전, 시스템 상태를 확인하십시오." (Yellow Warning/Action Required)
+
+// Section 4: Submission & Action
+Component: SubmissionArea
+- Button: 제출 (Submit Feedback)
+- Note: 제출 버튼은 동기화 상태가 'Green'일 때만 활성화되도록 설정합니다.
+  - State Logic: Enabled only if SystemStatusBlock is Green.
+
+// --- Final Output Summary for Designer Review ---
+Visual Goal: The form must visually communicate the relationship between system stability and data accuracy directly to the user, making the synchronization status an explicit part of the submission process.
